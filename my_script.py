@@ -5,7 +5,7 @@
     E-Mail: ahmed.m.abdalla650@gmail.com 
 
     Note all source files, header files and must be in the same directory or folder including the script
-    => if you are standard libraries the object files must be within the same folder
+    => if you are using standard libraries the object files must be within the same folder
 
 
 '''
