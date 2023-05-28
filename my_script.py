@@ -28,7 +28,7 @@ for filename in os.listdir(directory):
         file_name , file_extension = os.path.splitext(f)
         if file_extension == ".c" :  
             all_obj = all_obj +file_name + ".o "
-            print(f"avr-gcc" + " " + "-mmcu=atmega32 " + "-c " +  file_name + ".c " + "-o " + file_name + ".o "+"-l" )
+            #print(f"avr-gcc" + " " + "-mmcu=atmega32 " + "-c " +  file_name + ".c " + "-o " + file_name + ".o "+"-l" )
             os.system(f"avr-gcc" + " " + "-mmcu=atmega32 " + "-c " +  file_name + ".c " + "-o " + file_name + ".o " )
 
 
