@@ -1,0 +1,1 @@
+# Python-Script-to-generate-the-hex-file-for-AVR-mc-target
